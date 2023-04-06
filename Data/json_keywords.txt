@@ -1,0 +1,13 @@
+[ listsplit ] 
+split py boolean param
+ex) 
+"공공민간구분" : {"listsplit" : ["공공", "민간"]}
+1 : 공공 -> 공공:1, 민간 :0
+2 : 민간 -> 공공:0, 민간 :1
+
+
+
+[list_get]
+data list : "data"
+if not in "data" -> exchange if in "exchange"
+option : save = fill with exdata / delete : empty data
