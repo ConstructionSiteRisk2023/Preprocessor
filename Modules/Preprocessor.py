@@ -112,9 +112,5 @@ class Preprocessor:
             data = row[column].split(" ")[0]
             if(not data in collist):
                 collist.append(data)
-
         print(collist)
-
-    
-
 
